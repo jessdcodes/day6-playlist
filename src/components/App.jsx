@@ -10,7 +10,7 @@ function App() {
           justifyContent: "center",
         }}
       >
-        <img src="/public/day6_zip.png" style={{ width: "300px" }} />
+        <img src="/day6_zip.png" style={{ width: "300px" }} />
       </Box>
       <Grid
         container

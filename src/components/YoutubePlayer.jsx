@@ -6,11 +6,12 @@ function YoutubePlayer() {
     width: "560",
     playerVars: {
       autoplay: 1,
+      origin: window.location.origin,
     },
   };
 
   const onReady = (event) => {
-    event.target.pauseVideo();
+    event.target.playVideo();
   };
 
   return <YouTube videoId="xEGO8AGmWJQ" opts={opts} onReady={onReady} />;

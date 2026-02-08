@@ -10,7 +10,7 @@ function YoutubePlayer() {
   };
 
   const onReady = (event) => {
-    event.target.playVideo();
+    event.target.pauseVideo();
   };
 
   return <YouTube videoId="xEGO8AGmWJQ" opts={opts} onReady={onReady} />;
